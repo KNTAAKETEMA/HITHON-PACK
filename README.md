@@ -1,4 +1,4 @@
-#link heroku
+Like heroku
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https:https://github.com/KAZIM8/HITHON-PACK)
 
@@ -6,7 +6,7 @@
 
 #accounts for telegram 
 
-[[!telegtam to kazim](https://t.me/YTLTY)
+[kazim](https://t.me/YTLTY)
 
-[[!telegtam to hithon](https://t.me/Hithon)
+[hithon](https://t.me/Hithon)
 

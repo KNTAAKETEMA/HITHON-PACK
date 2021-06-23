@@ -6,7 +6,7 @@
 
 #حساباتي تلكرام 
 
-[![telegtam to kazim](https://t.me/YTLTY)
+[!telegtam to kazim](https://t.me/YTLTY)
 
-[![telegtam to hithon](https://t.me/Hithon)
+[!telegtam to hithon](https://t.me/Hithon)
 

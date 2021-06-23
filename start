@@ -4,12 +4,17 @@ _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
 <<<<<<< HEAD
+<<<<<<< HEAD
     if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
 =======
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
+=======
+    if [[ $UPSTREAM_REPO == "goodcat" ]]
+    then
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
         echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO == "badcat" ]]
     then
@@ -17,6 +22,9 @@ _get_ziplink () {
     elif [[ $UPSTREAM_REPO == "arabiccat" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+<<<<<<< HEAD
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+=======
 >>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
@@ -28,7 +36,11 @@ _get_ziplink () {
         fi
     else
 <<<<<<< HEAD
+<<<<<<< HEAD
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+=======
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
 =======
         echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
 >>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
@@ -40,14 +52,25 @@ _get_repolink () {
     local rlink
     regex='(https?)://github.com/.+/.+'
 <<<<<<< HEAD
+<<<<<<< HEAD
     if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXI=" | base64 -d`
 =======
+=======
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
     elif [[ $UPSTREAM_REPO == "badcat" ]]
+<<<<<<< HEAD
+    then
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FuMDkvY2F0dXNlcmJvdA==" | base64 -d`
+    elif [[ $UPSTREAM_REPO == "arabiccat" ]]
+    then
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90" | base64 -d`
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+=======
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FuMDkvY2F0dXNlcmJvdA==" | base64 -d`
     elif [[ $UPSTREAM_REPO == "arabiccat" ]]
@@ -59,7 +82,11 @@ _get_repolink () {
         rlink=`echo "${UPSTREAM_REPO}"`
     else
 <<<<<<< HEAD
+<<<<<<< HEAD
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXI=" | base64 -d`
+=======
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
 =======
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
 >>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
@@ -77,7 +104,11 @@ _run_catpack_git() {
 import sys
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/HITHON-PACK"
+=======
+OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/hithon-pack"
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
 =======
 OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/hithon-pack"
 >>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
@@ -113,10 +144,17 @@ _set_bot () {
     unzip -qq "$zippath"
     echo "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
     echo "  جـاري الاسـتراد لـتليثون HIThon ..."
     rm -rf "$zippath"
     sleep 5
     _run_catpack_git
+=======
+    echo "  Cleaning ..."
+    rm -rf "$zippath"
+    sleep 5
+    #_run_catpack_git
+>>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
 =======
     echo "  Cleaning ..."
     rm -rf "$zippath"

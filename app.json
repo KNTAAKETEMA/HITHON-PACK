@@ -1,14 +1,6 @@
 {
   "name": "hithon",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "description": "Welcome to Arab Telethon Source Arabic Language Modifier Follow our official channel @HITHON",
-=======
-  "description": "beta 👾",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-  "description": "beta 👾",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+  "description": "beta",
   "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
   "keywords": [
     "plugin",
@@ -20,34 +12,6 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "description": "@YTLTY⁦",
-      "value": "@YTLTY⁦⁦"
-    },
-    "APP_ID": {
-      "description": "اكتب هنا الايبي ايدي",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "اكتب هنا ألايبي هاش",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "ضع هنا كود تيرمكس",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": "ضع هنا معرف البوت بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "ضع هنا توكن البوت الخاص بك",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "أتركة كما هوة",
-=======
       "description": "give your name",
       "value": ""
     },
@@ -63,23 +27,6 @@
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
       "value": ""
     },
-=======
-      "description": "give your name",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
-      "value": ""
-    },
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
     "TG_BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
@@ -90,63 +37,25 @@
     },
     "COMMAND_HAND_LER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
-<<<<<<< HEAD
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
       "value": ".",
       "required": false
     },
     "ENV": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "description": "أتركة كما هوة",
-=======
       "description": "Setting this to ANYTHING will enable heroku.",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-      "description": "Setting this to ANYTHING will enable heroku.",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
       "value": "ANYTHING",
       "required": false
     },
     "HEROKU_API_KEY": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "description": "أتركة فارغ",
-=======
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "description": "أتركة فارغ",
-=======
       "description": "YOUR app name ",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-      "description": "YOUR app name ",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
       "value": "",
       "required": false
     },
     "TZ": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "description": "موقعك الحالي",
-      "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "Use either Telethon-Ar or Telethon-Arbaic .if you need custom deploy then type your git repo link",
-      "value": "Telethon-Ar",
-=======
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
       "required": false
@@ -154,16 +63,6 @@
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
       "value": "goodcat",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
       "required": false
     }
   },

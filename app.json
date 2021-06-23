@@ -1,6 +1,6 @@
 {
   "name": "hithon",
-  "description": "Welcome to Arab Telethon Source Arabic Language Modifier Follow our official channel @HITHON",
+  "description": "beta 👾",
   "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
   "keywords": [
     "plugin",
@@ -12,57 +12,57 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "@YTLTY⁦",
-      "value": "@YTLTY⁦⁦"
+      "description": "give your name",
+      "value": ""
     },
     "APP_ID": {
-      "description": "اكتب هنا الايبي ايدي",
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
     "API_HASH": {
-      "description": "اكتب هنا ألايبي هاش",
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "ضع هنا كود تيرمكس",
+      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "ضع هنا معرف البوت بدون @",
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "ضع هنا توكن البوت الخاص بك",
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "أتركة كما هوة",
+      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
       "value": ".",
       "required": false
     },
     "ENV": {
-      "description": "أتركة كما هوة",
+      "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING",
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "أتركة فارغ",
+      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "أتركة فارغ",
+      "description": "YOUR app name ",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "موقعك الحالي",
-      "value": "Asia/Baghdad",
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either Telethon-Ar or Telethon-Arbaic .if you need custom deploy then type your git repo link",
-      "value": "Telethon-Ar",
+      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
+      "value": "goodcat",
       "required": false
     }
   },

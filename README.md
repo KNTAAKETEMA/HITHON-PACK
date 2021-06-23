@@ -4,9 +4,8 @@ Like heroku
 
 - ملاحضه : النسخه تجريبه فقط الوقت محدد حتا تنزل النسخه كامله 👾💜
 
-#accounts for telegram 
+accounts for telegram 
 
 [kazim](https://t.me/YTLTY)
-
 [hithon](https://t.me/Hithon)
 

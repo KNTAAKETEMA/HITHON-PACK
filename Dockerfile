@@ -1,7 +1,7 @@
-FROM KAZIM8/HI-THON:alpine
+FROM kazim8/hi-thon:alpine
 
 #clonning repo 
-RUN git clone https://github.com/KAZIM8/HI-THON.git /root/userbot
+RUN git clone https://github.com/KAZIM8/hi-thon.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 

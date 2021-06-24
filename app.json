@@ -1,62 +1,62 @@
 {
   "name": "HITHON - USERBOT",
-  "description": "Arabic Userbot - @HITHON ",
+  "description": "Arabic Userbot - @HITHON",
   "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KAZIM8/HITHON-PACK/",
+  "repository": "https://github.com/Kazim8/hithon-pack/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ادخل اسمك هنا",
-      "value": ""
+      "description": "𝘋𝘈𝘝⁦",
+      "value": "𝘋𝘈𝘝⁦⁦"
     },
     "APP_ID": {
-      "description": "ايبي ايدي",
+      "description": "اكتب هنا الايبي ايدي",
       "value": ""
     },
     "API_HASH": {
-      "description": "ايبي هاش",
+      "description": "اكتب هنا ألايبي هاش",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "كود التيرمكس",
+      "description": "ضع هنا كود تيرمكس",
       "value": ""
     },
-    "ENV": {
-      "description": "لتغير بيها شي",
-      "value": "ANYTHING"
-    },
     "TG_BOT_USERNAME": {
-      "description": "معرف البوت بدون @",
+      "description": "ضع هنا معرف البوت بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "توكن البوت - يجب وضع البوت انلاين",
+      "description": "ضع هنا توكن البوت الخاص بك",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "اتركها كما هيه",
+      "description": "أتركة كما هوة",
       "value": ".",
       "required": false
     },
-
+    "ENV": {
+      "description": "أتركة كما هوة",
+      "value": "ANYTHING",
+      "required": false
+    },
     "HEROKU_API_KEY": {
-      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
+      "description": "أتركة فارغ",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق ",
+      "description": "أتركة فارغ",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "منطقتك ",
+      "description": "موقعك الحالي",
       "value": "Asia/Baghdad",
       "required": false
     },

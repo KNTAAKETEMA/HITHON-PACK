@@ -1,89 +1,58 @@
- {
- "name": "hithon",
-  "description": "it's hi source - telegram @YTLTY.",
-  "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
+{
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
   "keywords": [
-    "plugin",
-    "modular",
-    "productivity"
+    "productivity",
+    "HTML5",
+    "scalpel"
   ],
-  "repository": "https://github.com/Kazim8/hithon-pack/",
-  "website": "#TODO",
-  "success_url": "#TODO",
+  "website": "https://small-sharp-tool.com/",
+  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
   "env": {
-    "ALIVE_NAME": {
-      "description": "HITHON اكتب اسمك هنا.",
-      "value": "5"    },
-    "APP_ID": {
-      "description": "اكتب هنا الايبي ايدي",
-      "value": ""
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
     },
-    "API_HASH": {
-      "description": "اكتب هنا ألايبي هاش",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "ضع هنا كود تيرمكس",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": "ضع هنا معرف البوت بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "ضع هنا توكن البوت الخاص بك",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "أتركة كما هوة",
-      "value": ".",
-      "required": false
-    },
-    "ENV": {
-      "description": "أتركة كما هوة",
-      "value": "ANYTHING",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "أتركة فارغ",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "أتركة فارغ",
-      "value": "",
-      "required": false
-    },
-    "TZ": {
-      "description": "موقعك الحالي",
-      "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "Use either hithon or Telethon-Arbaic .if you need custom deploy then type your git repo link",
-      "value": "hi-thon",
-      "required": false
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
     }
   },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
     }
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
+  },
+  "image": "heroku/ruby",
+  "addons": [
+    "openredis",
+    {
+      "plan": "mongolab:shared-single-small",
+      "as": "MONGO"
+    },
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
 }

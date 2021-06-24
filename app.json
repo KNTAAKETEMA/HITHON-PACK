@@ -64,6 +64,7 @@
       "value": "hi-thon",
       "required": false
     }
+  },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {

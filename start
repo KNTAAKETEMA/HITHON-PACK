@@ -3,29 +3,9 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-<<<<<<< HEAD
-<<<<<<< HEAD
-    if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
+    if [[ $UPSTREAM_REPO == "Jmthon-iq" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-=======
-    if [[ $UPSTREAM_REPO == "goodcat" ]]
-    then
-=======
-    if [[ $UPSTREAM_REPO == "goodcat" ]]
-    then
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "badcat" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL2ppc2FuMDkvY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
-    elif [[ $UPSTREAM_REPO == "arabiccat" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-<<<<<<< HEAD
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTVRIT04tUEFDSy9hcmNoaXZlL21hc3Rlci56aXA" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -35,15 +15,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-<<<<<<< HEAD
-<<<<<<< HEAD
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-=======
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTVRIT04tUEFDSy9hcmNoaXZlL21hc3Rlci56aXA" | base64 -d
     fi
 }
 
@@ -51,45 +23,14 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-<<<<<<< HEAD
-<<<<<<< HEAD
-    if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
+    if [[ $UPSTREAM_REPO == "Jmthon-iq" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXI=" | base64 -d`
-=======
-=======
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-    if [[ $UPSTREAM_REPO == "goodcat" ]]
-    then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "badcat" ]]
-<<<<<<< HEAD
-    then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FuMDkvY2F0dXNlcmJvdA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "arabiccat" ]]
-    then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90" | base64 -d`
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-    then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FuMDkvY2F0dXNlcmJvdA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "arabiccat" ]]
-    then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90" | base64 -d`
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9O=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-<<<<<<< HEAD
-<<<<<<< HEAD
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uLUFyYWIvVGVsZXRob24tQXI=" | base64 -d`
-=======
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9O=" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -103,15 +44,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/HITHON-PACK"
-=======
-OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/hithon-pack"
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/hithon-pack"
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
@@ -143,35 +76,15 @@ _set_bot () {
     CATPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-<<<<<<< HEAD
-<<<<<<< HEAD
-    echo "  جـاري الاسـتراد لـتليثون HIThon ..."
+    echo "  جار تحميل بيانات السورس انتظر قليلا ..."
     rm -rf "$zippath"
     sleep 5
     _run_catpack_git
-=======
-    echo "  Cleaning ..."
-    rm -rf "$zippath"
-    sleep 5
-    #_run_catpack_git
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
-=======
-    echo "  Cleaning ..."
-    rm -rf "$zippath"
-    sleep 5
-    #_run_catpack_git
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
     cd $CATPATH
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-<<<<<<< HEAD
-    echo "    Starting Teletho-Ar    "
-    echo "👾hithon👾
-    "
-
-=======
-    echo "    Starting CatUserBot    "
+    echo "    Starting hithon    "
     echo "
                         :'######:::::'###::::'########::::
                         '##... ##:::'## ##:::... ##..:::::
@@ -193,7 +106,6 @@ _set_bot () {
     . #######::. ######:: ########: ##:::. ##: ########::. #######::::: ##::::
     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
     "
->>>>>>> a8e1673e277a5b4dfc72281b4f5a4ac359e7f746
     python3 -m userbot
 }
 

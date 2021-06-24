@@ -1,20 +1,19 @@
-{
-  "name": "telethon-Arabs",
-  "description": "Welcome to hithon Source Arabic Language Modifier Follow our official channel @ hithon",
+ {
+ "name": "hithon",
+  "description": "it's hi source - telegram @YTLTY.",
   "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KAZIM8/HITHON-PACK",
+  "repository": "https://github.com/Kazim8/hithon-pack/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "𝘋𝘈𝘝⁦",
-      "value": "𝘋𝘈𝘝⁦⁦"
-    },
+      "description": "HITHON اكتب اسمك هنا.",
+      "value": "5"    },
     "APP_ID": {
       "description": "اكتب هنا الايبي ايدي",
       "value": ""
@@ -65,11 +64,11 @@
       "value": "hi-thon",
       "required": false
     }
-  },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
+      "addons": [{
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
     }
   }],
   "buildpacks": [{

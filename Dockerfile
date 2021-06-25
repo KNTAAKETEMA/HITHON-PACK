@@ -1,4 +1,4 @@
-FROM KAZIM8/HI-THON:alpine
+FROM KAZIM8/HITHON:alpine
 
 #clonning repo 
 RUN git clone https://github.com/KAZIM8/HITHON.git /root/userbot

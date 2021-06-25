@@ -46,11 +46,11 @@
 "TZ":{
 "value": "Asia/Baghdad",
 "required": false
-},
-"UPSTREAM_REPO":{
-"description": "رمز السورس",
-"value": “hithon”
-"required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس",
+      "value": "hithon",
+      "required": false
 }
   },
   "addons": [{

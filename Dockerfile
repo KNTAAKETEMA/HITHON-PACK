@@ -1,7 +1,7 @@
-FROM kazim8/hithon-pacp:alpine
+FROM KAZIM8/HI-THON:alpine
 
 #clonning repo 
-RUN git clone https://github.com/KAZIM8/HITHON-PACK.git /root/userbot
+RUN git clone https://github.com/KAZIM8/HITHON.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 

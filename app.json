@@ -1,13 +1,14 @@
+
 {
-  "name": "HITHIN - USERBOT",
-  "description": "Arabic Userbot - @HITHON ",
-  "logo": "https://telegra.ph/file/9462bc55cc0d2ffa8c11e.jpg",
+  "name": "HITHON - USERBOT",
+  "description": "USER TELETHOM FOR TELEGRAM Denver @YTLTY : Ch - @HITHON ",
+  "logo": "https://telegra.ph/file/7e20eb771acfd75d878cc.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KAZIM8/HIthon-pack/",
+  "repository": "https://github.com/KAZIM8/HITHON-PACK/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -17,30 +18,30 @@
     },
     "APP_ID": {
       "description": "ايبي ايدي",
-      "value": ""
+      "Var": ""
     },
     "API_HASH": {
       "description": "ايبي هاش",
-      "value": ""
+      "Var": ""
     },
     "STRING_SESSION": {
       "description": "كود التيرمكس",
-      "value": ""
+      "Var": ""
     },
     "ENV": {
-      "description": "لتغير بيها شي",
+      "description": "التلعب بيها",
       "value": "ANYTHING"
     },
     "TG_BOT_USERNAME": {
       "description": "معرف البوت بدون @",
-      "value": ""
+      "Var": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "توكن البوت - يجب وضع البوت انلاين",
-      "value": ""
+      "description": "توكن البوت -خلي البوت اونلاين من بوت فاذر",
+      "Var": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "التضيف شي هنا",
+      "description": "التلعب بيها",
       "value": ".",
       "required": false
     },
@@ -51,7 +52,7 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم تطبيق",
+      "description": "اسم التطبيق ",
       "value": "",
       "required": false
     },
@@ -62,7 +63,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس",
-      "value": "HITHON",
+      "value": "hithon",
       "required": false
     }
   },

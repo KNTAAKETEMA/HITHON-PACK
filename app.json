@@ -13,7 +13,7 @@
   "env": {
     "ALIVE_NAME": {
       "description": "خلي اسمك هناه .",
-      "generator": "secret"
+      "value": ""
     },
     "API_HASH": {
       "description": "ايبي هاش.",

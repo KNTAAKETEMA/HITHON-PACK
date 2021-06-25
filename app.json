@@ -48,7 +48,7 @@
 "required": false
 },
 "UPSTREAM_REPO":{
-"description": "رمز السورس"
+"description": "رمز السورس",
 "value": "hithon"
 "required": false
 }

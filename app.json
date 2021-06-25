@@ -1,69 +1,68 @@
-
 {
   "name": "HITHON - USERBOT",
-  "description": "USER TELETHOM FOR TELEGRAM Denver @YTLTY : Ch - @HITHON ",
+  "description":HITHON "TELEGRAM ACCOUNTS- Ch@HITHON Dn@YTLTY",
   "logo": "https://telegra.ph/file/7e20eb771acfd75d878cc.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KAZIM8/HITHON-PACK/",
+  "repository": "https://github.com/Kazim8/hithon-pack/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "خلي اسمك هنا",
-      "value": ""
+      "description": "HITHON⁦",
+      "value": "HITHON⁦⁦"
     },
     "APP_ID": {
-      "description": "ايبي ايدي",
+      "description": "الايبي ايدي",
       "Var": ""
     },
     "API_HASH": {
-      "description": "ايبي هاش",
+      "description": "ألايبي هاش",
       "Var": ""
     },
     "STRING_SESSION": {
-      "description": "كود التيرمكس",
+      "description": "هنا كود تيرمكس",
       "Var": ""
     },
-    "ENV": {
-      "description": "التلعب بيها",
-      "value": "ANYTHING"
-    },
     "TG_BOT_USERNAME": {
-      "description": "معرف البوت بدون @",
+      "description": "هنا معرف البوت بدون @",
       "Var": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "توكن البوت -خلي البوت اونلاين من بوت فاذر",
+      "description": "خلي توكن البوت",
       "Var": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "التلعب بيها",
+      "description": "لتغير بيها شي",
       "value": ".",
       "required": false
     },
-
+    "ENV": {
+      "description": "التغير بيها شي",
+      "value": "ANYTHING",
+      "required": false
+    },
     "HEROKU_API_KEY": {
-      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
+      "description": "عوفه فارغه",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق ",
+      "description": "عوفه فارغ",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "منطقتك ",
+      "description": "موقعك الحالي",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس",
-      "value": "hithon",
+      "value": "hi-thon",
       "required": false
     }
   },

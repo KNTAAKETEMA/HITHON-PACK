@@ -1,70 +1,57 @@
 {
-  "name": "HITHON - USERBOT",
-  "description": "USER TELETHOM FOR TELEGRAM Denver @YTLTY : Ch - @HITHON ",
-  "logo": "https://telegra.ph/file/7e20eb771acfd75d878cc.jpg",
-  "keywords": [
+  "name": "hithon",
+  "description": "USER TELETHOM FOR TELEGRAM Denver @YTLTY : Ch - @HITHON.",
+ "logo" : "https://telegra.ph/file/7e20eb771acfd75d878cc.jpg", 
+"keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KAZIM8/HITHON-PACK/",
+  "repository": "https://github.com/KAZIM82/hithon-pack",
   "website": "#TODO",
-  "success_url": "#TODO",
+    "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "خلي اسمك هنا",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "ايبي ايدي",
-      "value": ""
+      "description": "خلي اسمك هناه .",
+      "generator": "secret"
     },
     "API_HASH": {
-      "description": "ايبي هاش",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "كود التيرمكس",
-      "value": ""
-    },
-    "ENV": {
-      "description": "التلعب بيها",
-      "value": "ANYTHING"
-    },
-    "TG_BOT_USERNAME": {
-      "description": "معرف البوت بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "توكن البوت -خلي البوت اونلاين من بوت فاذر",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "التلعب بيها",
-      "value": ".",
-      "required": false
-    },
-
-    "HEROKU_API_KEY": {
-      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق ",
-      "value": "",
-      "required": false
-    },
-    "TZ": {
-      "description": "منطقتك ",
-      "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "رمز السورس",
-      "value": "hithon",
-      "required": false
-    }
+      "description": "ايبي هاش.",
+      "value": "var"
+},
+"APP_ID":{
+"description": "ايبي ايدي"
+"value": "var"
+},
+"STRING_SESSION":{
+"description": "كود ترمكس"
+"value": "var"
+},
+"ENV":{
+"description": "لا تغير بيها اي شي"
+"value": "ANYTHING"
+},
+"TG_BOT_USERNAME":{
+"description": "معرف البوت بدون @"
+"value": "var"
+},
+"TG_BOT_TOKEN":{
+"description": "توكن البوت لازم يكون بوت جديد مامستخذم التوكن من قبل"
+"value": "var"
+},
+"HEROKU_API_KEY":{
+"description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account"
+"required": false
+},
+"TZ":{
+"value": "Asia/Baghdad"
+"required": false
+},
+"UPSTREAM_REPO":{
+"description": "رمز السورس"
+"value": "hithon"
+"required": false
+}
   },
   "addons": [{
     "plan": "heroku-postgresql",

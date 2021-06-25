@@ -33,11 +33,11 @@
     },
     "TG_BOT_USERNAME": {
       "description": "معرف البوت بدون @",
-      "value": ""
+      "Var": ""
     },
     "TG_BOT_TOKEN": {
       "description": "توكن البوت -خلي البوت اونلاين من بوت فاذر",
-      "value": ""
+      "Var": ""
     },
     "COMMAND_HAND_LER": {
       "description": "اتركها كما هيه",

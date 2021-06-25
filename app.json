@@ -17,15 +17,15 @@
     },
     "API_HASH": {
       "description": "ايبي هاش.",
-      "value": "var"
+      "value": ""
 },
 "APP_ID":{
 "description": "ايبي ايدي",
-"value": "var"
+"value": ""
 },
 "STRING_SESSION":{
 "description": "كود ترمكس",
-"value": "var"
+"value": ""
 },
 "ENV":{
 "description": "لا تغير بيها اي شي",
@@ -33,11 +33,11 @@
 },
 "TG_BOT_USERNAME":{
 "description": "معرف البوت بدون @",
-"value": "var"
+"value": ""
 },
 "TG_BOT_TOKEN":{
 "description": "توكن البوت لازم يكون بوت جديد مامستخذم التوكن من قبل",
-"value": "var"
+"value": ""
 },
 "HEROKU_API_KEY":{
 "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",

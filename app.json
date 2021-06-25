@@ -20,31 +20,31 @@
       "value": "var"
 },
 "APP_ID":{
-"description": "ايبي ايدي"
+"description": "ايبي ايدي",
 "value": "var"
 },
 "STRING_SESSION":{
-"description": "كود ترمكس"
+"description": "كود ترمكس",
 "value": "var"
 },
 "ENV":{
-"description": "لا تغير بيها اي شي"
+"description": "لا تغير بيها اي شي",
 "value": "ANYTHING"
 },
 "TG_BOT_USERNAME":{
-"description": "معرف البوت بدون @"
+"description": "معرف البوت بدون @",
 "value": "var"
 },
 "TG_BOT_TOKEN":{
-"description": "توكن البوت لازم يكون بوت جديد مامستخذم التوكن من قبل"
+"description": "توكن البوت لازم يكون بوت جديد مامستخذم التوكن من قبل",
 "value": "var"
 },
 "HEROKU_API_KEY":{
-"description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account"
+"description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
 "required": false
 },
 "TZ":{
-"value": "Asia/Baghdad"
+"value": "Asia/Baghdad",
 "required": false
 },
 "UPSTREAM_REPO":{

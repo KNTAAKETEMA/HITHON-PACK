@@ -3,7 +3,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "hithon" ]]
+    if [[ $UPSTREAM_REPO == "hithon-ip" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTVRIT04tUEFDSy9hcmNoaXZlL21hc3Rlci56aXA" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -23,7 +23,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "hithon" ]]
+    if [[ $UPSTREAM_REPO == "hithon-ip" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9O=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -43,10 +43,8 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-
 OFFICIAL_UPSTREAM_REPO = "https://github.com/KAZIM8/HITHON-PACK"
 ACTIVE_BRANCH_NAME = "master"
-
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -84,7 +82,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    Starting hithon    "
+    echo "    Starting CatUserBot    "
     echo "
                         :'######:::::'###::::'########::::
                         '##... ##:::'## ##:::... ##..:::::

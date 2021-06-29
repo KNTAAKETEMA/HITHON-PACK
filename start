@@ -25,9 +25,9 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "hithon" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0tBWklNOC9oaXRob24=" | base64 -d`
-    elif [[ $UPSTREAM_REPO =~ $regex ]
-    
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0tBWklNOC9oaXRob24==" | base64 -d`
+    elif [[ $UPSTREAM_REPO =~ $regex ]]
+    then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0tBWklNOC9oaXRob24=" | base64 -d`
